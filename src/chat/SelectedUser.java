@@ -10,6 +10,7 @@ public class SelectedUser extends JPanel{
 	final int HEIGHT = 70;
 	
 	boolean userSelected = false;
+	int selectedUserID;
 	
 	JLabel selectedUserName;
 	
@@ -17,8 +18,6 @@ public class SelectedUser extends JPanel{
 		
 		this.setBorder(new LineBorder(Panel.beige, 1));
 		this.setLayout(null);
-		
-
 		
 		this.setBounds(350, 0, WIDTH, HEIGHT);
 		this.setBackground(Panel.lightGreen);

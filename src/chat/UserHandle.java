@@ -18,6 +18,7 @@ public class UserHandle extends JPanel{
 	 
 	String name; 
 	
+	
 	SelectedUser selectedUser;
 	 
 	

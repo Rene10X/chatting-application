@@ -5,6 +5,7 @@ import javax.swing.JFrame;
 public class Frame extends JFrame{
 	
 	Panel panel;
+	Client client;
 	
 	Frame(){
 		panel = new Panel();

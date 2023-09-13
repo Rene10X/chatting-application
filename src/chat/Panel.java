@@ -39,6 +39,8 @@ public class Panel extends JPanel{
 		
 		userChat = new UserChat();
 		this.add(userChat);
+		
+		new Client(userChat);
 	}
 	
 
